@@ -25,7 +25,7 @@ features = [
 # === Interface Streamlit ===
 st.title("🔬 Prédiction automatique basée sur 37 signes cliniques")
 
-image_file = st.file_uploader("🖼️ Charger une image dermatologique", type=["jpg", "jpeg", "png"])
+image_file = st.file_uploader("🖼️ Charger une image dermatologique (**Optionnel**)", type=["jpg", "jpeg", "png"])
 
 if image_file:
     img = Image.open(image_file)
